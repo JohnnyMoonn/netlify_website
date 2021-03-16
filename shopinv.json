@@ -1,0 +1,26 @@
+{ "Shop" : [
+  { "Name": "Iron Arrow", 
+    "Price" : 1.10, 
+    "Skill": "Archery"
+  },
+  { "Name": "Silver Arrow", 
+    "Price" : 2.20, 
+    "Skill": "Archery"
+  },
+  { "Name": "Long Bow", 
+    "Price" : 5.00, 
+    "Skill": "Archery"
+  },
+  { "Name": "Short Sword", 
+    "Price" : 15.00, 
+    "Skill": "Sword"
+  },
+  { "Name": "Helmet", 
+    "Price" : 10.00, 
+    "Skill": "Armor"
+  },
+  { "Name": "Shoulders", 
+    "Price" : 15.00, 
+    "Skill": "Armor"
+  }
+]}
