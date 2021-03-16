@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Fetch Lab</title>
+    <link href ="guard_style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <audio id = "guardAudio" src = "stopLawbreaker.mp3"></audio>
+    
+    <div>
+      <ul class = "navbar">
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "shop_page.html">Shop</a></li>
+        <li><a href = "guard_page.html">Guard</a></li>
+      </ul>
+    </div>
+    
+      <h1>The Cyrodill City Guard</h1>
+      <p>The guards are led by a captain, who reports to the local Count or Countess.</p>
+      <p>Their duty is to uphold peace and order throughout the city and county, as well as ensuring justice is had in the event of a crime.</p> 
+      <p>Additionally, they are the last line of defense of their city in the event of assault or invasion.</p>
+      <p>Every County in Cyrodiil has its own Guard, these guards enforce the law and protect the capital cities of each County and the other villages or settlements</p>
+      <p>All city guards wear very similar armor sets, differences are normally just the color of the sash and material of the undershirt used, either steel or chain mail.</p>
+      <p>City guards also carry a shield which varies in color, and typically displays the insignia of the County across the front.</p>
+
+   
+    <div class = "grid">
+      <button onclick="onFetch()" class = "btn-fetch grid-column-one-top">Meet Your New Friend</button>
+      <section class ="img-frame grid-column-one-middle"><img src="" id = "guardPortrait"></section>
+      <p id = "article" class = grid-column-one-bottom></p>
+    </div>
+
+</body>
+  <script src="guard_script.js"></script>
+</html>

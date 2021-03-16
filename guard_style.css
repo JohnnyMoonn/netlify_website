@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Ubuntu&display=swap');
+
+/*|| BODY CONTENT*/
+body{
+    background-color: #212121;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+
+}
+h1{
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    font-size: 3em;
+    color:#c1c7c9;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color:#c1c7c9;
+    text-align: center;    
+}
+
+/*|| Image Styles*/
+/*Image Frame*/.img-frame{
+   width: 23em;
+   margin-top: 1em;
+   height: 18em;
+   border: .5em solid #857f72;
+   border-radius: .5em .5em .5em .5em;
+   background-color: #3e4c59;
+   box-shadow: 0 0 .6em .2em #3b3b3b;
+}
+/*Image Style --Added by JS-- */.img-fetch{
+    margin-top: .9em;
+    margin-left: .9em;
+    border: .2em solid #616e7c;
+    box-shadow: 0 0 .3em #cbd2d9;
+    display: flex;
+}
+
+/*|| Button Styles*/
+/* Main Button Style*/.btn-fetch{
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    margin: 1em;
+    width: 10em;
+    height: 5em;
+    border: .3em double #857f72;
+    border-radius: .5em;
+    background-color: #3e4c59;
+    box-shadow: 0 0 .5em .3em #3b3b3b;
+    color: #C1C7C9;
+}
+/*Hover Mod for Button*/.btn-fetch:hover{
+    box-shadow: 0 0 .5em .5em #3b3b3b;
+}
+/*Active Mod for Button*/.btn-fetch:active{
+    border-color: #3e4c59;
+    background-color: #857f72;
+    box-shadow: 0 0 .5em .7em #3b3b3b
+}
+
+
+/*|| NAVBAR STYLES*/
+/*Base of Navbar*/.navbar{
+    position: fixed;
+    list-style-type: none;
+    overflow: hidden;
+    border: .5em double #625d52;
+    background-color: #323f4b;
+    box-shadow: 0 0 .3em .2em #3b3b3b;
+    font-size: .9em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+/*Navbar Text*/.navbar li{
+    float: left;
+}
+/*Navbar Content*/.navbar li a{
+    color: #C1C7C9;
+    display: block;
+    text-align: center;
+    padding: .75em 1.5em;
+    text-decoration: none;
+}
+/*Hover Mod for Navbar*/.navbar li a:hover{
+    background-color: #3b3b3b;
+}
+
+
+/*|| GRID STYLES*/
+/*Base Grid Setup*/.grid{
+    display: grid;
+    columns: 4;
+    column-gap: 1em;
+    justify-items: center;
+    align-items: center;  
+}
+/*1-1*/.grid-column-one-top{
+    grid-column: 1;
+    grid-row: 1;
+}
+/*1-2*/.grid-column-one-bottom{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
